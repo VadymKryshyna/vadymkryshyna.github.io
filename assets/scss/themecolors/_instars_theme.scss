@@ -1,0 +1,11 @@
+@use "sass:map";
+@use "@angular/material" as mat;
+
+html.instars_theme {
+  --mat-sys-primary: rgb(0, 177, 211);
+  --mat-sys-primary-fixed-dim: rgb(0, 177, 211, 0.15);
+  --mat-sys-secondary: rgb(0, 208, 155);
+  --mat-sys-secondary-fixed-dim: rgb(0, 208, 155, 0.15);
+  --mat-sys-tertiary: rgb(255, 91, 165);
+  --mat-sys-sub: rgb(152,164,174);
+}
