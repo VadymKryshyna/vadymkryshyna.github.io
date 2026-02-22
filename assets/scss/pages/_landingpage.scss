@@ -72,20 +72,6 @@
   line-height: 25px;
 }
 
-.btn-custom {
-  height: 56px !important;
-  padding: 0 52px !important;
-  font-size: 16px;
-  &.sm {
-    padding: 0 34px !important;
-  }
-}
-
-@media (max-width: 767px) {
-  .btn-custom {
-    padding: 0 36px !important;
-  }
-}
 
 .banner-slider {
   background-color: var(--mat-sys-surface-bright);

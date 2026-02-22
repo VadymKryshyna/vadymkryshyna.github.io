@@ -19,6 +19,24 @@ html {
     }
   }
 
+  .mat-green {
+    .mdc-linear-progress__bar-inner {
+      border-color: #26AC59;
+    }
+  }
+
+  .mat-light-green {
+    .mdc-linear-progress__bar-inner {
+      border-color: #00D09B;
+    }
+  }
+
+  .mat-blue {
+    .mdc-linear-progress__bar-inner {
+      border-color: #00B1D3;
+    }
+  }
+
   // style
 
   .mat-mdc-progress-bar {

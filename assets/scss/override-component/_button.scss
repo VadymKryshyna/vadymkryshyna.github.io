@@ -178,3 +178,60 @@ html dropzone > .dropzone.dz-wrapper.dz-single .dz-preview .dz-image {
     padding: 0;
   }
 }
+
+.action-icon,
+.action-link {
+  button {
+    background-color: #E0E6EB;
+    border-radius: 10px;
+    padding-left: 2px;
+  }
+
+  .a-view {
+    background-color: #00B1D3;
+  }
+
+  .a-approve {
+    background-color: #26AC59;
+  }
+
+  .a-cancel {
+    background-color: #FF5BA5;
+  }
+
+  button + button {
+    margin-left: 4px;
+  }
+
+  .icon-white {
+    stroke: white;
+    stroke-width: 1px;
+  }
+}
+
+.btn-green {
+  background-color: #26AC59 !important;
+}
+
+.action-btn {
+  flex: 1;
+  min-width: 0;
+  font-size: 13px;
+
+  mat-icon {
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+
+  &.action-btn-delete {
+    border-color: #f44336 !important;
+    color: #f44336 !important;
+
+    &:hover {
+      background-color: rgba(244, 67, 54, 0.04) !important;
+    }
+  }
+}

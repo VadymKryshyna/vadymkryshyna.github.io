@@ -21,6 +21,8 @@ html.dark-theme {
   --mat-stepper-header-focus-state-layer-color: #19212a;
   --mat-stepper-header-hover-state-layer-color: #19212a;
   --mat-expansion-header-hover-state-layer-color: #19212a;
+  --ngx-editor-border-radius: 12px;
+
   @include mat.card-overrides(
     (
       elevated-container-color: #1a2537,
